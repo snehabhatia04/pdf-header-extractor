@@ -1,6 +1,6 @@
 # PDF Heading Extractor
 
-A Dockerized solution that extracts the title and hierarchical headings (H1, H2, H3) from PDFs. Designed for offline execution under 10 seconds with a model size under 200MB. Supports fallback OCR (English & Japanese) for scanned or image-based PDFs.
+A Dockerized solution that extracts the title and hierarchical headings (H1, H2, H3) from PDFs. Designed for offline execution under 10 seconds with a model size under 200MB.
 
 ---
 
