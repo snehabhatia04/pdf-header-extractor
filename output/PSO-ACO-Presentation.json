@@ -1,0 +1,1190 @@
+{
+  "title": "Unknown Title",
+  "outline": [
+    {
+      "level": "H1",
+      "text": ".",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Outline",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Swarm Intelligence",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Particle Swarm Optimization (PSO)",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Ant Colony Optimization (ACO)",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Case Study: Data Clustering Using PSO",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Conclusion",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Composed of many individuals",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Individuals are homogeneous",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Local interaction based on simple rules",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Self",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "-",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "organization ( No centralized Control)",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "•",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Particle Swarm Optimization (PSO)",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "•",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Ant Colony Optimization",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "•",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Artificial Bee Colony Algorithm",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "•",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Artificial Immune Systems Algorithm",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Initial solution",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Search direction",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Update criteria",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Stopping criteria",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "All above elements can be either",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "–",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Deterministic or",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Stochastic",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "–",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Single points or",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "population based",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Metaheuristics are (roughly) high",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "-",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "level strategies that",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "combining lower",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "-",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "level techniques for exploration and",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "exploitation of the search space.",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Outline",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Swarm Intelligence",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Particle Swarm Optimization (PSO)",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Ant Colony Optimization (ACO)",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Case Study: Data Clustering Using PSO",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Conclusion",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "PSO  is",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "stochastic",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "optimization technique proposed",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "by Kennedy and Eberhart ( 1995)",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "[2].",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "A population based search method with position of",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "particle is representing solution and Swarm of",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "particles as searching agent.",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "PSO is a robust evolutionary",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "optimization technique",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "based on the",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "movement and intelligence of swarms",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": ".",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "PSO find the",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "minimum",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "value for the",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "function.",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "food.",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "–",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "Bird",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "=",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "a particle,",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "Food",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "= a solution",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "–",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "pbest",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "= the best solution (fitness) a particle has",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "achieved so far.",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "–",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "gbest",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "= the global best solution of all particles",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "within the swarm",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "-",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "New Velocity",
+      "page": 17
+    },
+    {
+      "level": "H1",
+      "text": "Position",
+      "page": 17
+    },
+    {
+      "level": "H1",
+      "text": "Personal best",
+      "page": 17
+    },
+    {
+      "level": "H1",
+      "text": "Global best",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "Outline",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "Swarm Intelligence",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "Particle Swarm Optimization (PSO)",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "Ant Colony Optimization (ACO)",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "Case Study: Data Clustering Using PSO",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "Conclusion",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "“",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "It is a",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "population based",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "metaheuristic used to find approximate",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "solution to an optimization problem.",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "finding with a weighted graph",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "Shortest paths and routing",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "Assignment problem",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "Set Problem",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "The way ants  find their food in shortest path is",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "interesting.",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "These pheromones evaporate with time.",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "journey with pheromones.",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "Pheromones evaporate faster on longer paths.",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "Shorter paths serve as the way to food for",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "The shorter path will be reinforced by the",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "pheromones further.",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "Finally , the ants arrive at the shortest path.",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "•",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "ConstructAntSolutions",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": ": Partial solution extended by adding an",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "•",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "ApplyLocalSearch",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": ": problem",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "-",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "specific, used in state",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "-",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "of",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "-",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "art ACO",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "algorithms.",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "•",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "UpdatePheromones",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": ": increase pheromone of good solutions,",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "Outline",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "Swarm Intelligence",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "Particle Swarm Optimization (PSO)",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "Ant Colony Optimization (ACO)",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "Case Study: Data Clustering Using PSO",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "•",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": "Conclusion",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Where",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "x",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "data pattern belong to",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "cluster",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "i",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "and",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "is the center of cluster",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "j",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "and",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "k",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "is number of clusters",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "Partitioning clustering",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "drawbacks",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "Solution",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": ":",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "is the center of cluster",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "j",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "and",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "k",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "is number of clusters",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "The PSO Clustering Algorithm",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "[4]",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "pseudocode as follow:",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "Initialize each particle with",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "K",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "random cluster centers.",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "for",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "iteration count = 1 to maximum iterations",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "do",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "for all",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "particle",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "i",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "do",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "calculate Euclidean distance of",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "X",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "p",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "with all cluster center",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "assign",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "X",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "p",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "to the cluster that have nearest center to",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "X",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "p",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "end for",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "calculate the fitness function",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "f",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": ".",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "end for",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "Find the personal best and global best position of each particle.",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "Update cluster center according to velocity and coordinate",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "updating formula of PSO.",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "end for",
+      "page": 37
+    },
+    {
+      "level": "H1",
+      "text": "•",
+      "page": 39
+    },
+    {
+      "level": "H1",
+      "text": "The software implemented using",
+      "page": 39
+    },
+    {
+      "level": "H1",
+      "text": "Matlab",
+      "page": 39
+    },
+    {
+      "level": "H1",
+      "text": "•",
+      "page": 39
+    },
+    {
+      "level": "H1",
+      "text": "PSO clustering algorithm and Kmeans were tested",
+      "page": 39
+    },
+    {
+      "level": "H1",
+      "text": "using three type of data set",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "-",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "Q1: Define Swarm Intelligence and what is the characteristics of the swarm?",
+      "page": 49
+    },
+    {
+      "level": "H3",
+      "text": "Q2: What is the difference between heuristic and metaheuristic?",
+      "page": 49
+    },
+    {
+      "level": "H3",
+      "text": "the search technique?",
+      "page": 49
+    },
+    {
+      "level": "H3",
+      "text": "Q4: What is the Particle Swarm Optimization and show the algorithm?",
+      "page": 49
+    },
+    {
+      "level": "H3",
+      "text": "Q5: Define Ant Colony Optimization and show the algorithm?",
+      "page": 49
+    }
+  ]
+}

@@ -1,0 +1,2600 @@
+{
+  "title": "Unknown Title",
+  "outline": [
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "7.2",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "7.3",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "1",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "2",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "m",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "7.4",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Deadlock is a situation where two or more processes are waiting for each other. For",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "example, let us assume, we have two processes P1 and P2. Now, process P1 is",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "holding the resource R1 and is waiting for the resource R2. At the same time, the",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "process P2 is having the resource R2 and is waiting for the resource R1. So, the",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "process P1 is waiting for process P2 to release its resource and at the same time, the",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "process P2 is waiting for process P1 to release its resource. And no one is releasing",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "any resource. So, both are waiting for each other to release the resource. This leads",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "to infinite waiting and no work is done here. This is called Deadlock.",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "7.5",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "7.6",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "7.7",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "7.8",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Circular wait",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": ":",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "there exists a set {",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "P",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": ",",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "P",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": ", …,",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "P",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "} of waiting processes such that",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "P",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "is waiting for a resource that is held by",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "P",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": ",",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "P",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "is waiting for a resource that is held",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "by",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "P",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": ", …,",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "P",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "is waiting for a resource that is held by",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "P",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": ", and",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "P",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "is waiting for a",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "resource that is held by",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "P",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "In other words Circular wait is a condition when the first process is waiting for the",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "resource held by the second process, the second process is waiting for the",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "resource held by the third process, and so on. At last, the last process is waiting for",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "the resource held by the first process. So, every process is waiting for each other",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "to release the resource, and no one is releasing their own resource. Everyone is",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "waiting here for getting the resource. This is called a circular wait.",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "7.9",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "1",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "2",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "n",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "1",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "2",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "m",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "j",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "j",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Resource Allocation Graph (RAG) is a graph that represents the state of a system",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "pictorially.",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "There are two components of RAG-A set of vertices",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "V",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "and a set of edges",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "E",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "7.10",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "j",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "j",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "7.11",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "7.12",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "7.13",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "7.14",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "7.15",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "We can use a protocol to prevent or avoid deadlocks to ensure that the system",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "will",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "never",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "enter a deadlock state:",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "Deadlock Prevention:",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "design such a system that violates at least one of four",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "necessary conditions of deadlock and ensures independence from deadlock.",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "Deadlock Avoidance",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": ": The system maintains a set of data using which it",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "decides whether to entertain a new request or not, to be in a safe state.",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "Deadlock Detection and Recovery:",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "Allow the system to enter a deadlock state",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "and then recover.",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "Deadlock Ignorance:",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "We ignore the problem as if it does not exist. The Ostrich",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "algorithm is used in deadlock Ignorance.",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "7.16",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "7.17",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "7.18",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "7.19",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "7.20",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "7.21",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "7.22",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "7.23",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "7.24",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "7.25",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "1",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "2",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "n",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "j",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "j",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "j",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "+1",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "7.26",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "7.27",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "7.28",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "7.29",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 29
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 29
+    },
+    {
+      "level": "H1",
+      "text": "j",
+      "page": 29
+    },
+    {
+      "level": "H1",
+      "text": "j",
+      "page": 29
+    },
+    {
+      "level": "H1",
+      "text": "j",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "7.30",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "7.31",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "7.32",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "j",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "7.33",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "7.34",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 34
+    },
+    {
+      "level": "H1",
+      "text": "j",
+      "page": 34
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 34
+    },
+    {
+      "level": "H1",
+      "text": "j",
+      "page": 34
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 34
+    },
+    {
+      "level": "H1",
+      "text": "j",
+      "page": 34
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 34
+    },
+    {
+      "level": "H1",
+      "text": "j",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "7.35",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 35
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 35
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "7.36",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "j",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "7.37",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 37
+    },
+    {
+      "level": "H1",
+      "text": "0",
+      "page": 37
+    },
+    {
+      "level": "H1",
+      "text": "4",
+      "page": 37
+    },
+    {
+      "level": "H1",
+      "text": "0",
+      "page": 37
+    },
+    {
+      "level": "H1",
+      "text": "(Max-Allocation)",
+      "page": 37
+    },
+    {
+      "level": "H1",
+      "text": "0",
+      "page": 37
+    },
+    {
+      "level": "H1",
+      "text": "1",
+      "page": 37
+    },
+    {
+      "level": "H1",
+      "text": "2",
+      "page": 37
+    },
+    {
+      "level": "H1",
+      "text": "3",
+      "page": 37
+    },
+    {
+      "level": "H1",
+      "text": "4",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "7.38",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 38
+    },
+    {
+      "level": "H1",
+      "text": "0",
+      "page": 38
+    },
+    {
+      "level": "H1",
+      "text": "1",
+      "page": 38
+    },
+    {
+      "level": "H1",
+      "text": "2",
+      "page": 38
+    },
+    {
+      "level": "H1",
+      "text": "3",
+      "page": 38
+    },
+    {
+      "level": "H1",
+      "text": "4",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "7.39",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "7.40",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 40
+    },
+    {
+      "level": "H1",
+      "text": "1",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "7.41",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 41
+    },
+    {
+      "level": "H3",
+      "text": "7.42",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 42
+    },
+    {
+      "level": "H3",
+      "text": "7.43",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 43
+    },
+    {
+      "level": "H1",
+      "text": "1",
+      "page": 43
+    },
+    {
+      "level": "H1",
+      "text": "3",
+      "page": 43
+    },
+    {
+      "level": "H1",
+      "text": "4",
+      "page": 43
+    },
+    {
+      "level": "H1",
+      "text": "0",
+      "page": 43
+    },
+    {
+      "level": "H1",
+      "text": "2",
+      "page": 43
+    },
+    {
+      "level": "H1",
+      "text": "4",
+      "page": 43
+    },
+    {
+      "level": "H1",
+      "text": "0",
+      "page": 43
+    },
+    {
+      "level": "H1",
+      "text": "3",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "7.44",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "7.45",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "7.46",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "7.47",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "7.48",
+      "page": 48
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 48
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 48
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 48
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 48
+    },
+    {
+      "level": "H1",
+      "text": "j",
+      "page": 48
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 48
+    },
+    {
+      "level": "H1",
+      "text": "j",
+      "page": 48
+    },
+    {
+      "level": "H1",
+      "text": "2",
+      "page": 48
+    },
+    {
+      "level": "H3",
+      "text": "7.49",
+      "page": 49
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 49
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 49
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 49
+    },
+    {
+      "level": "H3",
+      "text": "7.50",
+      "page": 50
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 50
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 50
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 50
+    },
+    {
+      "level": "H3",
+      "text": "7.51",
+      "page": 51
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 51
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 51
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 51
+    },
+    {
+      "level": "H1",
+      "text": "i",
+      "page": 51
+    },
+    {
+      "level": "H1",
+      "text": "j",
+      "page": 51
+    },
+    {
+      "level": "H3",
+      "text": "7.52",
+      "page": 52
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 52
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 52
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "1.",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "Let",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "Work",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "and",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "Finish",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "be vectors of length",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "m",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "and",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "n",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": ", respectively Initialize:",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "(a)",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "Work",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "=",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "Available",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "(b) For",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "i",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "= 1,2, …,",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "n",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": ", if",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "Allocation",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "0",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": ", then",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "Finish",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "[i]",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "= false",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "; otherwise,",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "Finish",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "[i] =",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "true",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "2.",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "Find an index",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "i",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "such that both:",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "(a)",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "Finish",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "[",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "i",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "] ==",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "false",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "(b)",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "Request",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "Work",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "If no such",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "i",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "exists, go to step 4",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "3.",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "Work",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "=",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "Work",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "+",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "Allocation",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "Finish",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "[",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "i",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "] =",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "true",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "go to step 2",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "4.",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "If",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "Finish[i] == false",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": ", for some",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "i",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": ", 1",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "i",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "n",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": ", then the system is in deadlock state.",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "Moreover, if",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "Finish",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "[",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "i",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "] ==",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "false",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": ", then",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "P",
+      "page": 52
+    },
+    {
+      "level": "H2",
+      "text": "is deadlocked",
+      "page": 52
+    },
+    {
+      "level": "H3",
+      "text": "7.53",
+      "page": 53
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 53
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 53
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 53
+    },
+    {
+      "level": "H1",
+      "text": "0",
+      "page": 53
+    },
+    {
+      "level": "H1",
+      "text": "4",
+      "page": 53
+    },
+    {
+      "level": "H1",
+      "text": "0",
+      "page": 53
+    },
+    {
+      "level": "H1",
+      "text": "0",
+      "page": 53
+    },
+    {
+      "level": "H1",
+      "text": "1",
+      "page": 53
+    },
+    {
+      "level": "H1",
+      "text": "2",
+      "page": 53
+    },
+    {
+      "level": "H1",
+      "text": "3",
+      "page": 53
+    },
+    {
+      "level": "H1",
+      "text": "4",
+      "page": 53
+    },
+    {
+      "level": "H3",
+      "text": "7.54",
+      "page": 54
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 54
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 54
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 54
+    },
+    {
+      "level": "H3",
+      "text": "7.55",
+      "page": 55
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 55
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 55
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 55
+    },
+    {
+      "level": "H1",
+      "text": "2",
+      "page": 55
+    },
+    {
+      "level": "H1",
+      "text": "0",
+      "page": 55
+    },
+    {
+      "level": "H1",
+      "text": "1",
+      "page": 55
+    },
+    {
+      "level": "H1",
+      "text": "2",
+      "page": 55
+    },
+    {
+      "level": "H1",
+      "text": "3",
+      "page": 55
+    },
+    {
+      "level": "H1",
+      "text": "4",
+      "page": 55
+    },
+    {
+      "level": "H1",
+      "text": "0",
+      "page": 55
+    },
+    {
+      "level": "H1",
+      "text": "1",
+      "page": 55
+    },
+    {
+      "level": "H1",
+      "text": "2",
+      "page": 55
+    },
+    {
+      "level": "H1",
+      "text": "3",
+      "page": 55
+    },
+    {
+      "level": "H1",
+      "text": "4",
+      "page": 55
+    },
+    {
+      "level": "H3",
+      "text": "7.56",
+      "page": 56
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 56
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 56
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 56
+    },
+    {
+      "level": "H3",
+      "text": "7.57",
+      "page": 57
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 57
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 57
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 57
+    },
+    {
+      "level": "H3",
+      "text": "7.58",
+      "page": 58
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 58
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 58
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 58
+    },
+    {
+      "level": "H3",
+      "text": "7.59",
+      "page": 59
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 59
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 59
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 59
+    },
+    {
+      "level": "H3",
+      "text": "7.60",
+      "page": 60
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 60
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 60
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 60
+    },
+    {
+      "level": "H2",
+      "text": "Selecting a victim",
+      "page": 60
+    },
+    {
+      "level": "H2",
+      "text": "– Which resources and which processes are to be",
+      "page": 60
+    },
+    {
+      "level": "H2",
+      "text": "preempted? As in process termination, we must determine the order of",
+      "page": 60
+    },
+    {
+      "level": "H2",
+      "text": "preemption to minimize cost. Cost factors may include such parameters as the",
+      "page": 60
+    },
+    {
+      "level": "H2",
+      "text": "number of resources a deadlocked process is holding and the amount of time",
+      "page": 60
+    },
+    {
+      "level": "H2",
+      "text": "the process has thus far consumed",
+      "page": 60
+    },
+    {
+      "level": "H2",
+      "text": "Rollback",
+      "page": 60
+    },
+    {
+      "level": "H2",
+      "text": "– If we preempt a resource from a process, what should be done with",
+      "page": 60
+    },
+    {
+      "level": "H2",
+      "text": "that process? Clearly, it cannot continue with its normal execution; it is missing",
+      "page": 60
+    },
+    {
+      "level": "H2",
+      "text": "some needed resource. We must roll back the process to some safe state and",
+      "page": 60
+    },
+    {
+      "level": "H2",
+      "text": "restart it from that state.",
+      "page": 60
+    },
+    {
+      "level": "H2",
+      "text": "Starvation",
+      "page": 60
+    },
+    {
+      "level": "H2",
+      "text": "– How do we ensure that starvation will not occur? That is, how can",
+      "page": 60
+    },
+    {
+      "level": "H2",
+      "text": "we guarantee that resources will not always be preempted from the same",
+      "page": 60
+    },
+    {
+      "level": "H2",
+      "text": "process? Clearly, we must ensure that a process can be picked as a victim only",
+      "page": 60
+    },
+    {
+      "level": "H2",
+      "text": "a (small) finite number of times.",
+      "page": 60
+    },
+    {
+      "level": "H3",
+      "text": "Silberschatz, Galvin and Gagne ©2013",
+      "page": 61
+    },
+    {
+      "level": "H3",
+      "text": "Operating System Concepts – 9",
+      "page": 61
+    },
+    {
+      "level": "H3",
+      "text": "Edition",
+      "page": 61
+    }
+  ]
+}

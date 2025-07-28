@@ -1,0 +1,1040 @@
+{
+  "title": "Unknown Title",
+  "outline": [
+    {
+      "level": "H3",
+      "text": "EED",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "ORWARD",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "EURAL",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "ETWORK",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "2",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "EED",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "ORWARD",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "EURAL",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "ETWORK",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "3",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "EED",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "ORWARD",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "EURAL",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "ETWORK",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "4",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "5",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "LGORITHM",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "6",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "LGORITHM",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "7",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Mean Squared Error function",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "is used to calculate the",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "error.The error value of a single output neuron is a",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "The total error of the network is a sum of all error values",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "from all output neurons. the",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Total Error",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "is:",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "LGORITHM",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "8",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "To calculate the",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "gradient",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "of the",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Total Error",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "against a",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "weight, we calculate the",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "partial differential",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "of the",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Total",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Error",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "with respect to the",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "weight",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "We employ the",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "chain rule",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "to simplify the above equation",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "by splitting it into smaller equations",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "LGORITHM",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "9",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "LGORITHM",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "10",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "As we are using the Sigmoid activation function to",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "calculate output from the",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "Total Net Input",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": ", which is",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "a function of only one variable, we calculate the",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "derivative instead of partial derivative of a",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "neuron's output with respect to its input using",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "this",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "formula",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "LGORITHM",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "11",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "As we already know, the",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Total Net Input",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "of a neuron is a",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "weighted summation of all its inputs and the bias. The",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "derivative of the",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Total Net Input",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "with respect to one of",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "its weights is the corresponding input factor of that",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "particular weight since all other weighted sums and bias",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "will be treated as constants.",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "LGORITHM",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "12",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "After solving for each of the individual differentials, we",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "can now calculate the partial differential of the",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "Total",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "Error",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "with respect to a weight. Once we have that, we",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "adjust our weight in proportion to the",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "learning rate",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "XAMPLE",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "13",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "XAMPLE",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "14",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "XAMPLE",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "15",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "XAMPLE",
+      "page": 16
+    },
+    {
+      "level": "H1",
+      "text": "16",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "XAMPLE",
+      "page": 17
+    },
+    {
+      "level": "H1",
+      "text": "17",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "XAMPLE",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "text": "18",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "XAMPLE",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "19",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "XAMPLE",
+      "page": 20
+    },
+    {
+      "level": "H1",
+      "text": "20",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "XAMPLE",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "21",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "XAMPLE",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "22",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "XAMPLE",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "23",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "XAMPLE",
+      "page": 24
+    },
+    {
+      "level": "H1",
+      "text": "24",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "XAMPLE",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "25",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "XAMPLE",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "26",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "XAMPLE",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "27",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "XAMPLE",
+      "page": 28
+    },
+    {
+      "level": "H1",
+      "text": "28",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "XAMPLE",
+      "page": 29
+    },
+    {
+      "level": "H1",
+      "text": "29",
+      "page": 29
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "XAMPLE",
+      "page": 30
+    },
+    {
+      "level": "H1",
+      "text": "30",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "RADIENT",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "ESENT",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "31",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "XAMPLE",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "32",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "ACK",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "ROPAGATION",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "XAMPLE",
+      "page": 33
+    },
+    {
+      "level": "H1",
+      "text": "33",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": ".",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "MPLEMENTATION",
+      "page": 34
+    },
+    {
+      "level": "H1",
+      "text": "34",
+      "page": 34
+    }
+  ]
+}

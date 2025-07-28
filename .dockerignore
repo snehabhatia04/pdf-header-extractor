@@ -1,0 +1,58 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+.VENV/
+.venv/
+
+# Ignore Jupyter files
+*.ipynb
+
+# Ignore logs, coverage, test reports
+*.log
+*.cover
+.coverage
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+htmlcov/
+nosetests.xml
+coverage.xml
+*.pytest_cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ignore installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore PyInstaller, packaging files
+*.spec
+dist/
+build/
+*.egg-info/
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Input/Output
+/input/*
+!/input/.gitkeep
+/output/*
+!/output/.gitkeep
+
+# Docker
+Dockerfile~
+.dockerignore
