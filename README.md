@@ -14,10 +14,6 @@ A Dockerized solution that extracts the title and hierarchical headings (H1, H2,
    - Dynamically detects heading levels (H1, H2, H3) using layout features like font size, boldness, and relative position on page.
    - Handles irregular formats without relying solely on font size.
 
-3. **OCR Support**:
-   - Integrated with **Tesseract (English + Japanese)** for multilingual handling.
-   - Automatically detects when to switch to OCR based on PyMuPDF fallback.
-
 ---
 
 ## 📁 Expected Input/Output
