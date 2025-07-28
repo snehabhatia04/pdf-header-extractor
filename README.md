@@ -8,7 +8,6 @@ A Dockerized solution that extracts the title and hierarchical headings (H1, H2,
 
 1. **Text Extraction**:
    - Uses **PyMuPDF (fitz)** for fast, layout-preserving PDF text block extraction.
-   - Falls back to **Tesseract OCR** for scanned/image-based pages or when PyMuPDF fails.
 
 2. **Heading Detection**:
    - Dynamically detects heading levels (H1, H2, H3) using layout features like font size, boldness, and relative position on page.
